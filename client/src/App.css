@@ -1,0 +1,53 @@
+.App {
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    padding: 0 20px;
+    background-color: darkgray;
+    width: 100%;
+    height: auto;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.information input {
+    padding: 20px;
+    /* padding-left: 10px; */
+    font-size: 20px;
+}
+
+  button {
+    width: 291px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.employees {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.employee {
+    width: 421px;
+    height: auto;
+    background-color: cadetblue;
+    margin: 10px;
+    /* display: flex; */
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.employee h3 {
+   
+}
